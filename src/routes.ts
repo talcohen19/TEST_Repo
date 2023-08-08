@@ -5,6 +5,12 @@ export const Routes = [{
     route: "/users",
     controller: EmployeeController,
     action: "all"
+},
+{
+    method: "get",
+    route: "/users/:name",
+    controller: EmployeeController,
+    action: "all"
 }, {
     method: "get",
     route: "/users/:id",
