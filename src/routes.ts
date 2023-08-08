@@ -8,7 +8,7 @@ export const Routes = [{
 },
 {
     method: "get",
-    route: "/users/:name",
+    route: "/users/:username",
     controller: EmployeeController,
     action: "all"
 }, {
